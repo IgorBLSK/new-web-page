@@ -3,13 +3,18 @@
 html,
 body {
     height: 100%;
+    font-family: 'Emilys Candy', cursive;
+  }
+
+
+img {
+    max-width: 100%;
 }
 
 /* cover */
 
 #cover {
-    background: #222 url('img/stars.jpg') center;
-    background-repeat: no-repeat;
+    background: #222 url('img/kytica-a-tvar-cover.jpg') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
@@ -20,4 +25,11 @@ body {
 
 #cover-caption {
     width: 100%;
+}
+
+/*buttons*/ 
+
+#btn-contact {
+    background-color: plum;
+    border-color: pink;
 }
