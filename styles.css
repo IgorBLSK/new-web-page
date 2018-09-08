@@ -1,9 +1,12 @@
 /* styles.css */
 
+/* #e7e5e8, #b62ca9, #b75fad  */
+
 html,
 body {
     height: 100%;
     font-family: 'Emilys Candy', cursive;
+    background-color: #e7e5e8;
   }
 
 
@@ -16,7 +19,7 @@ img {
 #cover {
     background: #222 url('img/kytica-a-tvar-cover.jpg') center center no-repeat;
     background-size: cover;
-    color: white;
+    color: #e7e5e8;
     height: 100%;
     text-align: center;
     display: flex;
@@ -30,6 +33,22 @@ img {
 /*buttons*/ 
 
 #btn-contact {
-    background-color: plum;
-    border-color: pink;
+    background-color: #b75fad;
+    border-color: #b75fad;
+}
+
+#btn-contact:hover {
+    background-color: #b62ca9;
+    border-color: #b75fad;
+}
+
+.btn-outline-primary {
+    border-color: #b75fad;
+    color: #b75fad;
+}
+
+.btn-outline-primary:hover {
+    border-color: #b75fad;
+    background-color: #e7e5e8;
+    color: #b75fad;
 }
