@@ -6,12 +6,21 @@ html,
 body {
     height: 100%;
     font-family: 'Emilys Candy', cursive;
-    background-color: #e7e5e8;
   }
-
 
 img {
     max-width: 100%;
+}
+
+/* navbar */
+.nav-link,
+.navbar-brand {
+    color: #b75fad;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #b62ca9;
 }
 
 /* cover */
@@ -19,7 +28,7 @@ img {
 #cover {
     background: #222 url('img/kytica-a-tvar-cover.jpg') center center no-repeat;
     background-size: cover;
-    color: #e7e5e8;
+    color: white;
     height: 100%;
     text-align: center;
     display: flex;
@@ -30,7 +39,7 @@ img {
     width: 100%;
 }
 
-/*buttons*/ 
+/* buttons */ 
 
 #btn-contact {
     background-color: #b75fad;
@@ -48,7 +57,46 @@ img {
 }
 
 .btn-outline-primary:hover {
-    border-color: #b75fad;
-    background-color: #e7e5e8;
-    color: #b75fad;
+    border-color: white;
+    background-color: #b75fad;
+    color: #e7e5e8;
+}
+
+/* sections */
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#products,
+#reviews {
+    background-color: white;
+}
+
+/* about */
+
+#about {
+    background: url(img/kytica\ tombola.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.4);
+    color: white;
+    padding: 1.875rem;
+}
+
+#special-review {
+    background-color: #b75fad;
+}
+
+.pagination {
+    color: #b75fad
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
 }
